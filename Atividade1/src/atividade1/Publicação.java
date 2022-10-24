@@ -1,0 +1,9 @@
+package atividade1;
+
+public interface Publicação {
+	public abstract void abrir();
+	public abstract void fechar();
+	public abstract void folhear(int p);
+	public abstract void avancarPage();
+	public abstract void voltarPage();
+} 
